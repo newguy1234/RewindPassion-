@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">RewindPassion</string>
     <string name="title_activity_join">JoinActivity</string>
+    <string name="players_in_game">Players in Game:</string>
+    <string name="join_code_123456">Join Code: 123456</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="rewindpassion">RewindPassion</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="join">Join</string>
+    <string name="host">Host</string>
 </resources>
