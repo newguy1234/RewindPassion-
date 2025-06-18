@@ -47,9 +47,14 @@ public class HostActivity extends AppCompatActivity {
         allPlayers.add("Player C");
 
         // Set up of the dropdown
-        ArrayAdapter<String> dropdownAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, allPlayers);
-        dropdownAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<String> dropdownAdapter = new ArrayAdapter<>(
+                this,
+                R.layout.spinner_item,
+                allPlayers
+        );
+        dropdownAdapter.setDropDownViewResource(R.layout.spinner_item);
         playerDropdown.setAdapter(dropdownAdapter);
+
 
         // Adding dummy players to dropdown
         acceptedPlayers = new ArrayList<>();
